@@ -103,6 +103,24 @@ st.markdown("""
     font-size: 14px;
     margin-bottom: 20px;
 }
+
+@media (prefers-color-scheme: dark) {
+    .box {
+        background: #2b2b2b;
+        color: #f5f5f5;
+        border: 3px solid #888;
+    }
+
+    .userbox {
+        background: #3a3a3a;
+        color: #f5f5f5;
+    }
+
+    .name {
+        color: #ffd27a;
+    }
+}
+
 </style>
 """, unsafe_allow_html=True)
 
