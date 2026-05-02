@@ -8,7 +8,7 @@ import base64
 st.set_page_config(page_title="夜子の部屋", page_icon="🌙")
 
 import os
-API_KEY = st.secrets("API_KEY")
+API_KEY = st.secrets["API_KEY"]
 client = genai.Client(api_key=API_KEY)
 
 MEMORY_FILE = "memory.json"
